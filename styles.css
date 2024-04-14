@@ -1,0 +1,60 @@
+img {
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.sarlavha-h1 {
+  font-size: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  width: 500px;
+}
+#searchInp {
+  outline: none;
+  width: 400px;
+}
+#searchInp:focus {
+  border: 3px solid rebeccapurple;
+}
+.btn {
+  position: absolute;
+  color: inherit;
+  border: 1px solid;
+  right: 12%;
+  top: 50px;
+}
+.btn:hover {
+  color: white !important;
+}
+#productList {
+  margin-top: 60px;
+}
+.list-item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.324);
+  padding: 10px;
+  margin-left: -27px;
+  text-align: left;
+  border-radius: 8px;
+  margin-bottom: 3px;
+}
